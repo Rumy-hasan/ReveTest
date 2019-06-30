@@ -22,3 +22,7 @@ public protocol SideMenuProtocol {
     var sideMenu: SideMenu? {get}
     func setContent(of viewController: UIViewController)
 }
+
+protocol cummunicateWithParent: class{
+    func changeParntView()
+}

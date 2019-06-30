@@ -132,6 +132,7 @@
         <!--Second View Controller-->
         <scene sceneID="GXz-mt-8eg">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ckG-A4-s4q" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="ViewController2" id="piO-qT-l29" customClass="SecondViewController" customModule="ReveTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4c0-BZ-s4u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -173,7 +174,6 @@
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ckG-A4-s4q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="726" y="757"/>
         </scene>
@@ -185,8 +185,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am inside second view controller. From where we can go back and also can show side menu. we can desable it also" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpd-Ob-G1H">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpd-Ob-G1H">
                                 <rect key="frame" x="10" y="417.5" width="394" height="61"/>
+                                <string key="text">I am inside second view controller. From where we can go back and also can show side menu by right swipe. we can desable it also</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -231,7 +232,24 @@
                     <view key="view" contentMode="scaleToFill" id="Zge-gn-KFH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="te" translatesAutoresizingMaskIntoConstraints="NO" id="pll-eB-RCc">
+                                <rect key="frame" x="94.5" y="335.5" width="225" height="225"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dummy Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vO9-pW-wrc">
+                                <rect key="frame" x="110.5" y="278.5" width="193" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.52549019610000003" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vO9-pW-wrc" firstAttribute="centerX" secondItem="Zge-gn-KFH" secondAttribute="centerX" id="1CG-ta-Tur"/>
+                            <constraint firstItem="pll-eB-RCc" firstAttribute="centerY" secondItem="Zge-gn-KFH" secondAttribute="centerY" id="KQy-Aj-8i8"/>
+                            <constraint firstItem="pll-eB-RCc" firstAttribute="centerX" secondItem="Zge-gn-KFH" secondAttribute="centerX" id="Ncj-v8-ZD9"/>
+                            <constraint firstItem="pll-eB-RCc" firstAttribute="top" secondItem="vO9-pW-wrc" secondAttribute="bottom" constant="20" id="sLb-fT-TOP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Nax-uC-oXm"/>
                     </view>
                 </viewController>
@@ -239,20 +257,8 @@
             </objects>
             <point key="canvasLocation" x="61" y="1403"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="MhL-9c-Uek">
-            <objects>
-                <viewController id="8yC-Yx-h8g" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8BE-Qh-1QU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Ihw-O4-Zpe"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ipi-u0-Rxe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="709" y="1403"/>
-        </scene>
     </scenes>
+    <resources>
+        <image name="te" width="225" height="225"/>
+    </resources>
 </document>

@@ -17,6 +17,7 @@ class DefaultViewController: UIViewController {
     lazy var subOneVC: SubViewControllerOne = {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         var vc = storyboard.instantiateViewController(withIdentifier: "one") as! SubViewControllerOne
+        vc.delegateForContactwithParent = self
         self.addVcAs(child: vc)
         return vc
     }()
@@ -62,6 +63,15 @@ extension DefaultViewController{
         vc.view.autoresizingMask = [.flexibleWidth,.flexibleHeight]
         vc.didMove(toParent: self)
     }
+}
+
+
+extension DefaultViewController:cummunicateWithParent{
+    func changeParntView() {
+        self.view.backgroundColor = UIColor.gray
+    }
+    
+    
 }
 
 /*
