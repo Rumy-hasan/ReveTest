@@ -21,6 +21,9 @@
 		A23FA49F22C8D1CA0061631D /* ViewController_Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FA49E22C8D1CA0061631D /* ViewController_Extentions.swift */; };
 		A23FA4A122C8D2BB0061631D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FA4A022C8D2BB0061631D /* Constant.swift */; };
 		A23FA4A322C8D6F20061631D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FA4A222C8D6F20061631D /* SecondViewController.swift */; };
+		A23FA4A522C8DC210061631D /* SubViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FA4A422C8DC210061631D /* SubViewControllerOne.swift */; };
+		A23FA4A722C8DC380061631D /* SubViewControllerTow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FA4A622C8DC380061631D /* SubViewControllerTow.swift */; };
+		A23FA4A922C8DFE80061631D /* SubOneTestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FA4A822C8DFE80061631D /* SubOneTestCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		A23FA49E22C8D1CA0061631D /* ViewController_Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Extentions.swift; sourceTree = "<group>"; };
 		A23FA4A022C8D2BB0061631D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		A23FA4A222C8D6F20061631D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A23FA4A422C8DC210061631D /* SubViewControllerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewControllerOne.swift; sourceTree = "<group>"; };
+		A23FA4A622C8DC380061631D /* SubViewControllerTow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewControllerTow.swift; sourceTree = "<group>"; };
+		A23FA4A822C8DFE80061631D /* SubOneTestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubOneTestCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,7 @@
 				A23FA46C22C8C8BD0061631D /* Assets.xcassets */,
 				A23FA46E22C8C8BD0061631D /* LaunchScreen.storyboard */,
 				A23FA47122C8C8BD0061631D /* Info.plist */,
+				A23FA4A822C8DFE80061631D /* SubOneTestCell.swift */,
 			);
 			path = ReveTest;
 			sourceTree = "<group>";
@@ -147,6 +154,8 @@
 				A23FA49422C8C9ED0061631D /* BaseNavigationController.swift */,
 				A23FA49B22C8D17C0061631D /* SideMenuTableViewController.swift */,
 				A23FA4A222C8D6F20061631D /* SecondViewController.swift */,
+				A23FA4A422C8DC210061631D /* SubViewControllerOne.swift */,
+				A23FA4A622C8DC380061631D /* SubViewControllerTow.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -309,7 +318,10 @@
 				A23FA46622C8C8BC0061631D /* AppDelegate.swift in Sources */,
 				A23FA49F22C8D1CA0061631D /* ViewController_Extentions.swift in Sources */,
 				A23FA49522C8C9ED0061631D /* BaseNavigationController.swift in Sources */,
+				A23FA4A522C8DC210061631D /* SubViewControllerOne.swift in Sources */,
 				A23FA49722C8CACD0061631D /* SideMenu.swift in Sources */,
+				A23FA4A722C8DC380061631D /* SubViewControllerTow.swift in Sources */,
+				A23FA4A922C8DFE80061631D /* SubOneTestCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

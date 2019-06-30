@@ -57,7 +57,7 @@ class SideMenuTableViewController: UITableViewController {
         }
         selectedMenuItem = indexPath.row
         
-        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Second",bundle: nil)
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main",bundle: nil)
         var destViewController : UIViewController
         switch (indexPath.row) {
         case 0:
