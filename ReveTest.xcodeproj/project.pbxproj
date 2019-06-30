@@ -20,6 +20,7 @@
 		A23FA49C22C8D17C0061631D /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FA49B22C8D17C0061631D /* SideMenuTableViewController.swift */; };
 		A23FA49F22C8D1CA0061631D /* ViewController_Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FA49E22C8D1CA0061631D /* ViewController_Extentions.swift */; };
 		A23FA4A122C8D2BB0061631D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FA4A022C8D2BB0061631D /* Constant.swift */; };
+		A23FA4A322C8D6F20061631D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FA4A222C8D6F20061631D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		A23FA49B22C8D17C0061631D /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
 		A23FA49E22C8D1CA0061631D /* ViewController_Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_Extentions.swift; sourceTree = "<group>"; };
 		A23FA4A022C8D2BB0061631D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A23FA4A222C8D6F20061631D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +114,6 @@
 				A23FA49822C8CB330061631D /* Utility */,
 				A23FA49322C8C9970061631D /* ViewControllers */,
 				A23FA46522C8C8BC0061631D /* AppDelegate.swift */,
-				A23FA46722C8C8BC0061631D /* DefaultViewController.swift */,
 				A23FA46922C8C8BC0061631D /* Main.storyboard */,
 				A23FA46C22C8C8BD0061631D /* Assets.xcassets */,
 				A23FA46E22C8C8BD0061631D /* LaunchScreen.storyboard */,
@@ -142,8 +143,10 @@
 		A23FA49322C8C9970061631D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A23FA46722C8C8BC0061631D /* DefaultViewController.swift */,
 				A23FA49422C8C9ED0061631D /* BaseNavigationController.swift */,
 				A23FA49B22C8D17C0061631D /* SideMenuTableViewController.swift */,
+				A23FA4A222C8D6F20061631D /* SecondViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				A23FA49A22C8CC7F0061631D /* Protocols.swift in Sources */,
 				A23FA49C22C8D17C0061631D /* SideMenuTableViewController.swift in Sources */,
 				A23FA46822C8C8BC0061631D /* DefaultViewController.swift in Sources */,
+				A23FA4A322C8D6F20061631D /* SecondViewController.swift in Sources */,
 				A23FA4A122C8D2BB0061631D /* Constant.swift in Sources */,
 				A23FA46622C8C8BC0061631D /* AppDelegate.swift in Sources */,
 				A23FA49F22C8D1CA0061631D /* ViewController_Extentions.swift in Sources */,

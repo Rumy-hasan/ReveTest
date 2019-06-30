@@ -28,7 +28,7 @@ class SideMenuTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 2
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -42,7 +42,7 @@ class SideMenuTableViewController: UITableViewController {
             cell!.selectedBackgroundView = selectedBackgroundView
         }
         
-        cell!.textLabel?.text = "ViewController #\(indexPath.row+1)"
+        cell!.textLabel?.text = "ViewController \(indexPath.row+1)"
         
         return cell!
     }
@@ -63,14 +63,8 @@ class SideMenuTableViewController: UITableViewController {
         case 0:
             destViewController = mainStoryboard.instantiateViewController(withIdentifier: "ViewController1")
             break
-        case 1:
-            destViewController = mainStoryboard.instantiateViewController(withIdentifier: "ViewController2")
-            break
-        case 2:
-            destViewController = mainStoryboard.instantiateViewController(withIdentifier: "ViewController3")
-            break
         default:
-            destViewController = mainStoryboard.instantiateViewController(withIdentifier: "ViewController4")
+            destViewController = mainStoryboard.instantiateViewController(withIdentifier: "ViewController2")
             break
         }
         sideMenuController()?.setContent(of: destViewController)
