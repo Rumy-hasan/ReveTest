@@ -36,7 +36,8 @@ class SideMenuTableViewController: UITableViewController {
         if (cell == nil) {
             cell = UITableViewCell(style:.default, reuseIdentifier: "Cell")
             cell!.backgroundColor = .clear
-            cell!.textLabel?.textColor = .darkGray
+            cell!.textLabel?.textColor = .white
+            cell?.textLabel?.font = .systemFont(ofSize: 20)
             let selectedBackgroundView = UIView(frame: CGRect(x: 0, y: 0, width: cell!.frame.size.width, height: cell!.frame.size.height))
             selectedBackgroundView.backgroundColor = UIColor.gray.withAlphaComponent(0.2)
             cell!.selectedBackgroundView = selectedBackgroundView
